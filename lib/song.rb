@@ -1,3 +1,8 @@
+   def save
+    self.class.all << self	    self.class.all << self
+  end
+ 
+ 
  # Build a class method that interacts on the class data @@all
   # and provide the rest of our program with a semantic API on the
   # Song class with method such as
